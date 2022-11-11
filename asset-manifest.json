@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-assessment-loanoptions/static/css/main.7357d20b.css",
+    "main.js": "/react-assessment-loanoptions/static/js/main.b58f6d8c.js",
+    "index.html": "/react-assessment-loanoptions/index.html",
+    "main.7357d20b.css.map": "/react-assessment-loanoptions/static/css/main.7357d20b.css.map",
+    "main.b58f6d8c.js.map": "/react-assessment-loanoptions/static/js/main.b58f6d8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7357d20b.css",
+    "static/js/main.b58f6d8c.js"
+  ]
+}

@@ -16,6 +16,7 @@ function reducer(state = initialState, action) {
             return {
                 ...state,
                 results: [...state.results, state.results[0]]
+                //When ‘ADD’ is clicked, insert the ﬁrst item of the table to the last (ﬁrst item should remain as it is ) -> always insert the first item?
             }
 
         case 'clickBtn/delete':

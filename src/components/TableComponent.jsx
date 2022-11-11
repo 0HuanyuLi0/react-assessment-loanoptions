@@ -28,23 +28,23 @@ function TableComponent() {
           {
             results &&
             results.map((school, index) =>
-              <tr key={index + 1}>
+              <tr key={index}>
                 <td>{index + 1}</td>
                 <td>{school.name}</td>
                 <td>{school.country}</td>
                 <td>{school.alpha_two_code}</td>
                 {/* <td>{school.state-province}</td> */}
                 <td>{school.domains.map(d =>
-                  <>
+                  <div key={d}>
                     <a href={`http://${d}`} target='_blank'>{d}</a>
                     <br />
-                  </>
+                  </div >
                 )} </td>
                 <td>{school.web_pages.map(l =>
-                  <>
+                  <div key={l}>
                     <a href={l} target='_blank'>{l}</a>
                     <br />
-                  </>
+                  </div >
                 )}</td>
               </tr>
             )

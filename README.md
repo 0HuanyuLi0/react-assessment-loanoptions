@@ -3,6 +3,7 @@
 Built a single Page React application which fetches information from an API and displays the results on a table.
 API Endpoint: http://universities.hipolabs.com/search?country=Australia
 
+
 ### Instructions
 - When the page loads, the table should be empty.
 - Based on the API information, structure the table columns and naming 

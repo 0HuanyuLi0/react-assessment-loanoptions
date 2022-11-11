@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import { useSelector } from 'react-redux'
+import './tableComponent.css'
 
 function TableComponent() {
 
   const results = useSelector(state => state.results)
 
   useEffect(() => {
-    console.log(results);
+    // console.log(results);
   }, [results])
 
   return (

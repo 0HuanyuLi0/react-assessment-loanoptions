@@ -3,7 +3,11 @@
 Built a single Page React application which fetches information from an API and displays the results on a table.
 API Endpoint: http://universities.hipolabs.com/search?country=Australia
 
-
+### Features
+- Use react-bootstrap
+- Use redux
+- Deployed on GitHub using gh-pages
+- [Online Demo](https://0HuanyuLi0.github.io/react-assessment-loanoptions)
 ### Instructions
 - When the page loads, the table should be empty.
 - Based on the API information, structure the table columns and naming 
@@ -14,7 +18,7 @@ API Endpoint: http://universities.hipolabs.com/search?country=Australia
 
 ### Bonus
 - Using a UI package to optimise the design 
-    Done -> React-Boostrap 
+    Done -> React-Bootstrap
 - Use of Redux
     Done -> Redux
 

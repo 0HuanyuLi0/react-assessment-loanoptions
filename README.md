@@ -4,11 +4,10 @@ Built a single Page React application which fetches information from an API and 
 API Endpoint: http://universities.hipolabs.com/search?country=Australia
 
 ### Features
-- Use react-bootstrap
-- Use redux
-- Disabled `Load` button in `Loading...` state
-- Deployed on GitHub using gh-pages
-- [Online Demo](https://0HuanyuLi0.github.io/react-assessment-loanoptions)
+- Implement React-Bootstrap
+- Implement Redux
+- Disable `Load` button in `Loading…` state
+- Deploy the app on GitHub Pages by using `gh-pages` package: [Online Demo](https://0HuanyuLi0.github.io/react-assessment-loanoptions)
 ### Instructions
 - When the page loads, the table should be empty.
 - Based on the API information, structure the table columns and naming 
@@ -19,6 +18,6 @@ API Endpoint: http://universities.hipolabs.com/search?country=Australia
 
 ### Bonus
 - Using a UI package to optimise the design 
-    Done -> React-Bootstrap
+        Done -> React-Bootstrap
 - Use of Redux
-    Done -> Redux
+        Done -> Redux

@@ -6,6 +6,7 @@ API Endpoint: http://universities.hipolabs.com/search?country=Australia
 ### Features
 - Use react-bootstrap
 - Use redux
+- Disabled `Load` button in `Loading...` state
 - Deployed on GitHub using gh-pages
 - [Online Demo](https://0HuanyuLi0.github.io/react-assessment-loanoptions)
 ### Instructions
@@ -21,7 +22,3 @@ API Endpoint: http://universities.hipolabs.com/search?country=Australia
     Done -> React-Bootstrap
 - Use of Redux
     Done -> Redux
-
-### Questions
-- When ‘ADD’ is clicked, insert the ﬁrst item of the table to the last (ﬁrst item should remain as it is )
-    Always insert the first item of the table?

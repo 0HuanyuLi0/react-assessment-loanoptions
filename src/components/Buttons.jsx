@@ -8,6 +8,7 @@ function Buttons() {
     const url = `http://universities.hipolabs.com/search?country=Australia`
     const dispatch = useDispatch()
     const results = useSelector(state => state.results)
+    const isDark = useSelector(state => state.darkMode)
 
     const [isLoading, setIsLoading] = useState(false)
 
@@ -32,11 +33,18 @@ function Buttons() {
         dispatch({ type: 'clickBtn/add' })
     }
 
+    const handleColor = () => {
+        dispatch({ type: 'clickBtn/changeColor' })
+    }
+
+
+
     return (
         <div className='btns'>
             <Button variant="primary" onClick={!isLoading ? handleLoad : null} disabled={isLoading}>{isLoading ? `Loading...` : `Load`}</Button>
             <Button variant="danger" onClick={handleDelete}>Delete</Button>
             <Button variant="success" onClick={handleAdd}>Add</Button>
+            <Button variant="secondary" onClick={handleColor}>Color Mode: {isDark ? 'Dark' : 'Light'}</Button>
         </div>
     )
 }

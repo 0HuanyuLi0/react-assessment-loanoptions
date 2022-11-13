@@ -7,6 +7,8 @@ API Endpoint: http://universities.hipolabs.com/search?country=Australia
 - Implement React-Bootstrap
 - Implement Redux
 - Disable `Load` button in `Loading…` state
+- `Dark` and `Light` color mode controll
+- Responsive design
 - Deploy the app on GitHub Pages by using `gh-pages` package: [Online Demo](https://0HuanyuLi0.github.io/react-assessment-loanoptions)
 ### Instructions
 - When the page loads, the table should be empty.

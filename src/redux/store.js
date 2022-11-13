@@ -2,6 +2,7 @@ import { createStore } from 'redux';
 
 const initialState = {
     results: null,
+    darkMode:false
 }
 
 function reducer(state = initialState, action) {
@@ -23,6 +24,12 @@ function reducer(state = initialState, action) {
             return {
                 ...state,
                 results: state.results.filter((_,i) => i !== state.results.length-1)
+            }
+        
+        case 'clickBtn/changeColor':
+            return {
+                ...state,
+                darkMode:!state.darkMode
             }
 
         default:

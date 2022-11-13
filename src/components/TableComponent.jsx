@@ -6,14 +6,15 @@ import './tableComponent.css'
 function TableComponent() {
 
   const results = useSelector(state => state.results)
+  const color = useSelector(state => state.darkMode)
 
   useEffect(() => {
     // console.log(results);
   }, [results])
 
   return (
-    <div>
-      <Table striped bordered hover>
+    <div className='table'>
+      <Table striped bordered hover variant={color ? 'dark' : null}>
         <thead>
           <tr>
             <th>#</th>

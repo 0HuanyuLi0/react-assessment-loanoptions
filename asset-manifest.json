@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-assessment-loanoptions/static/css/main.2ee12d80.css",
-    "main.js": "/react-assessment-loanoptions/static/js/main.c78a7672.js",
+    "main.css": "/react-assessment-loanoptions/static/css/main.577ca092.css",
+    "main.js": "/react-assessment-loanoptions/static/js/main.a1db658f.js",
     "index.html": "/react-assessment-loanoptions/index.html",
-    "main.2ee12d80.css.map": "/react-assessment-loanoptions/static/css/main.2ee12d80.css.map",
-    "main.c78a7672.js.map": "/react-assessment-loanoptions/static/js/main.c78a7672.js.map"
+    "main.577ca092.css.map": "/react-assessment-loanoptions/static/css/main.577ca092.css.map",
+    "main.a1db658f.js.map": "/react-assessment-loanoptions/static/js/main.a1db658f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ee12d80.css",
-    "static/js/main.c78a7672.js"
+    "static/css/main.577ca092.css",
+    "static/js/main.a1db658f.js"
   ]
 }
